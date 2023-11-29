@@ -9,7 +9,7 @@
 
 <body>
     <h1 style=" text-align: center;" >Elimina Usuario</h1>
-    <form style=" text-align: center;" method="GET" action="deleteUsuario.php">
+    <form style=" text-align: center;" method="GET" action="eliminar.php">
 
         <input  type="text" name="nombre" placeholder="Nombre del usuario" />
         <br />

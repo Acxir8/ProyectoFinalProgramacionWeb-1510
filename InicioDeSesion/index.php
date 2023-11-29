@@ -8,7 +8,7 @@
     
 </head>
 <body>
-<form action="respuesta.php" method="post">
+<form action="ingresa.php" method="post">
 
  <section class="form-login">
         <h5>Iniciar sesión</h5>
@@ -16,7 +16,7 @@
         <input class="controls" type="password" name="password" required placeholder="Contraseña">
         <button class="button">
             <span>Ingresar</span></button>
-        <p><a href="form_registro.php">Registrate.</a></p>
+        <p><a href="registro.php">Registrate.</a></p>
     </section>
 
  </form>

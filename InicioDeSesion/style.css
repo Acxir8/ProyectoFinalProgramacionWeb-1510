@@ -6,7 +6,14 @@
 
 body {
     font-family: Arial;
-    background-image: url('abstract-3d-artistic-studio-room-blue-gradient-background.jpg');
+    background-image: url('cosmere.jpg');
+    background-image: no-repeat;
+    background-image: fixed;
+    background-image: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 
 }
 
@@ -16,13 +23,12 @@ body {
     background: #4e4d4d;
     margin: auto;
     margin-top: 100px;
-    box-shadow: 7px 13px 50px #000;
+    box-shadow: 7px 13px 50px #DDDEC0;
     padding: 30px 30px;
-    border-top: 4px solid #017bab;
-    color: white;
+    border-top: 4px solid rgb(182, 83, 12);
     text-align: center;
     border-radius: 8px;
-    
+    color: black;
 
 }
 
@@ -37,7 +43,7 @@ body {
 
 .controls {
     width: 380px;
-    border: 1px solid #017bab;
+    border: 1px solid #DDDEC0;
     border-radius: 8px;
     margin-bottom: 15px;
     padding: 11px 10px;
@@ -52,17 +58,18 @@ body {
     justify-content: center;
     width: 200px;
     height: 40px;
-    background: #456789;
+    background: rgb(182, 83, 12);
     border: none;
-    color: white;
+    color: black;
     border-radius: 8px;
     cursor: pointer;
     transition: .2s;
+    font-weight: bold;
  
 }
 
 .button:hover {
-    background: #017bab;
+    background: #DDDEC0;
     border: 1px solid white;
 }
 
@@ -77,9 +84,10 @@ body {
 }
 
 .form-login a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .form-login a:hover{

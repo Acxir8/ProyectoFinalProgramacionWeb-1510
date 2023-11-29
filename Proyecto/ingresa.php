@@ -14,7 +14,7 @@ if($array['contar']>0){
     // en la variable session se guarda el numero de cuenta esto para poder acarrearla
     $_SESSION['usermane']=$usuario;
     echo "Ingresaste";
-    header("location: ./dashboard.php");
+    header("location: ./inicio.php");
 }else{
 
         header("location: ./index.php");

@@ -16,11 +16,11 @@ $count = mysqli_num_rows($resultado);
 echo "<table border='2' >
     <tr>
         <th>ID</th>
+        <th>Nombre de usuario</th>
         <th>Nombre</th>
         <th>Direccion</th>
         <th>Telefono</th>
         <th>Correo Electronico</th>
-        <th>Nombre de usuario</th>
     
     </tr>";
 
@@ -29,11 +29,11 @@ if ( $count>0 ){
     while( $row = mysqli_fetch_assoc($resultado)  ){
      echo "<tr>";
      echo"<td>". $row['id'] ."</td>";
+     echo"<td>". $row['nombre_usuario'] ."</td>";
      echo"<td>". $row['nombre'] ."</td>";
      echo"<td>". $row['direccion'] ."</td>";
      echo"<td>". $row['telefono'] ."</td>";
      echo"<td>". $row['correo'] ."</td>";
-     echo"<td>". $row['nombre_usuario'] ."</td>";
      echo "</tr>";
      
     }

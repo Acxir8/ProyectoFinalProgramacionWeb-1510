@@ -14,7 +14,7 @@ $resultado = $conexion->query($consulta_sql);
 $count = mysqli_num_rows($resultado); 
 
 echo "<h1>Bienvenido</h1>";
-echo "<table border='2' >
+echo "<table border='2'>
     <tr>
         <th>ID</th>
         <th>Nombre de usuario</th>
